@@ -1,0 +1,377 @@
+body {
+  font-family: 'Kanit', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  height: auto;
+  overflow-x: hidden;
+  background-color: #808080;
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: #fff;
+  background: #c20d0d;
+}
+
+::selection {
+  color: #fff;
+  background: #c20d0d;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+  background: #fffeff;        /* color of the tracking area */
+  
+  }
+  
+  body::-webkit-scrollbar-thumb {
+  background-color: #e1193e;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #a3122d;  /* creates padding around scroll thumb */
+  }
+  
+  body::-webkit-scrollbar-thumb:hover {
+  background-color: #ee3153;    /* color of the scroll thumb */
+  border-radius: 20px;       /* roundness of the scroll thumb */
+  border: 2px solid #a3122d;  /* creates padding around scroll thumb */
+  }
+
+/***************/
+
+/* font-family: 'Staatliches', cursive; */
+
+/***************/
+
+
+.container-nav-total {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #111111;
+}
+
+/* .container-nav-backdrop {
+  height: 70px;
+  width: 100%;
+  backdrop-filter: blur(10px);
+}
+ */
+.container-nav {
+  width: 90%;
+/*   background-color: blue; */
+  height: 70px;
+  margin: auto;
+}
+
+.container-nav-elemente {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.container-nav-el-1 {
+  height: 70px;
+  width: 60px;
+/*   background-color: red; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 6px;
+  color: #fff;
+}
+
+.container-nav-el-2 {
+  height: 70px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.container-nav-el-img-asp {
+  width: 50px;
+  height: 50px;
+  pointer-events: none;
+}
+
+.container-nav-el-2-p-asp1 {
+  font-size: 20px;
+  color: #fff;
+  display: block;
+}
+
+.container-nav-el-2-p-asp2 {
+  font-size: 24px;
+  color: #fff;
+  display: none;
+}
+
+.container-nav-el-2-div {
+  width: 30px;
+  height: 30px;
+/*   background-color: green; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+}
+
+/********/
+
+.container-slide-total {
+  height: calc(100vh - 70px);
+  background-color: #111111;
+  margin-top: 70px;
+  position: fixed;
+  top: 0;
+  right: -70%;
+  width: 70%;
+}
+
+.container-slide {
+  height: 100%;
+  width: 90%;
+  margin: auto;
+/*   background-color: blue; */
+}
+
+.container-slide-elemente {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.container-slide-el-1 {
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+/*   background-color: green; */
+}
+
+.container-slide-el-1-p-asp {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.fa-micit {
+  font-size: 16px;
+}
+
+.fa-micit2 {
+  font-size: 16px;
+}
+
+.fa-micit3 {
+  font-size: 16px;
+}
+
+.rotate {
+  rotate: 180deg;
+}
+
+.rotate2 {
+  rotate: 180deg;
+}
+
+.rotate3 {
+  rotate: 180deg;
+}
+
+.container-slide-el-1-drop {
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+/*   background-color: red; */
+  margin-top: 0;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.container-slide-el-1-drop2 {
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+/*   background-color: red; */
+  margin-top: 0;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.container-slide-el-1-drop3 {
+  width: 100%;
+  height: 0px;
+  overflow: hidden;
+/*   background-color: red; */
+  margin-top: 0;
+  padding-left: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  margin-bottom: 20px;
+}
+
+.container-slide-el-1-drop-p-asp {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2px;
+  color: #fff;
+  font-size: 16px;
+  width: 100%;
+  text-decoration: none;
+}
+
+.container-slide-el-1-p-asp2 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.container-slide-el-1-p-asp3 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+
+.spacing-mic {
+  margin-bottom: 20px;
+}
+
+.container-slide-el-1-p-asp4 {
+  color: #fff;
+  font-size: 20px;
+  margin-bottom: 0;
+  text-decoration: none;
+/*   background-color: red; */
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 40px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.container-nav-el-3 {
+  display: none;
+}
+
+
+/****************************************************/
+
+@media screen and (min-width: 500px) {
+  .container-nav-el-2 {
+    display: none;
+  }
+
+  .container-nav-el-3 {
+    height: 70px;
+    width: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 10px;
+  }
+
+  .container-nav-el-3-a-asp {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .container-nav-el-3-a-asp2 {
+    color: #fff;
+    text-decoration: none;
+    border: 2px solid #fff;
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meniu-inchidere {
+  animation-name: meniu-inchidere;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes meniu-inchidere {
+  0% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+}
+
+.meniu-deschidere {
+  animation-name: meniu-deschidere;
+  animation-duration: 0.2s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes meniu-deschidere {
+  0% {
+    opacity: 1;
+    transform: translateX(-100%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+
+
+
+
